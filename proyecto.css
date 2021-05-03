@@ -1,0 +1,991 @@
+*{
+
+    font-family: 'Krona One', sans-serif;
+    
+    font-weight: 100;
+    
+    
+    }
+    
+    .container-responsive{
+    
+    display: none;
+    
+    }
+    
+    body{
+    
+    background: radial-gradient(circle, #bbb, #000);
+    
+    }
+    
+    .content{
+    
+    display: flex;
+    
+    flex-direction: column;
+    
+    box-sizing: inherit;
+    
+    }
+    
+    
+    
+    .header{
+    
+    text-align: center;
+    
+    font-size: 30px;
+    
+    flex-basis: 60px;
+    
+    background-image: url(Carretera.jpeg);
+    
+    background-size: 100% 200px;
+    
+    background-repeat: no-repeat; 
+    
+    
+    
+    
+    
+    }
+    
+    
+    .content:before{
+    
+    content: "";
+    
+    position: absolute;
+    
+    background-color: #2F4F4F;
+    
+    width: 100%;
+    
+    height: 75px;
+    
+    opacity: 0.7;
+    
+    
+    }
+    
+    .header-h1 {
+    
+    display: flex;
+    
+    justify-content: center;
+    
+    font-size: 15px;
+    
+    }
+    
+    
+    .header-h1{
+    
+    position: relative;
+    
+    filter: brightness(1.2);
+    
+    
+    
+    }
+    
+    
+    h1{
+    
+    
+    text-align: center;
+    
+    color: #8d0000;
+    
+    font-family: 'Krona One', sans-serif;
+    
+    }
+    
+    .nav{
+    
+        
+    display: flex;
+    
+    justify-content: center;
+    
+    flex-direction: column;
+    
+    background: #8b0000;
+    
+    
+    }
+    
+    
+    
+    .li__ul-nav{
+    
+    
+    text-align: center;
+    
+    color: #fff;
+    
+    padding: 25px;
+    
+    font-size: 15px;
+    
+    list-style-type: none;
+    
+    flex-grow: 1;
+    
+    transition: 0.3s;
+    
+    
+    
+    }
+    
+    
+    .li__ul-nav a{
+    
+    color: #fff;
+    
+    text-decoration: none;
+    
+    padding: 5px;
+    
+    flex-basis: 60px;
+    
+    transition: 0.3s;
+    
+    }
+    
+    
+    .li__ul-nav:hover{
+    
+    color: #bbb;
+    
+    background: #800000
+    
+    
+    }
+    
+    .li__ul-nav:hover a{
+    
+    color: #bbb;
+    
+    
+    }
+    
+    
+    .article-container{
+    
+    display: flex;
+    
+    flex-direction: column;
+    
+    height: 80vh;
+    
+    justify-content: center;
+    
+    align-items: center;
+    
+    background-image: url(Telefono.png);
+    
+    background-size: 100% 80vh;
+    
+    background-repeat: no-repeat;
+    
+    margin-top: 5px;
+    
+    
+    }
+    
+    .article-container:before{
+    
+    content: "";
+    
+    position: absolute;
+    
+    background-color: #2F4F4F;
+    
+    width: 100%;
+    
+    height: 80vh;
+    
+    opacity: 0.7;
+    
+    
+    }
+    
+    .article-h2{
+    
+    text-align: center;
+    
+    height: 45%;
+    
+    padding: 15px;
+    
+    position: relative;
+    
+    }
+    
+    .article-h2 h2{
+    
+    color: #fff;
+    
+    font-size: 30px;
+    
+    font-family: 'Krona One', sans-serif;
+    
+    }
+    
+    
+    
+    .article-p{
+    
+    text-align: center;
+    
+    padding: 20px;
+    
+    position: relative;
+    
+    }
+    
+    .article-p i{
+    
+    padding: 10px;
+    
+    }
+    
+    .article-p p{
+    
+    color: #fff;
+    
+    font-size: 25px;
+    
+    font-family: 'Krona One', sans-serif;
+    
+    }
+    
+    
+    
+    .boton{
+    
+    flex-basis: 60px;	
+    
+    background: #00008B;
+    
+    padding: 20px;
+    
+    list-style-type: none;
+    
+    position: relative;
+    
+    text-align: center;
+    
+    font-size: 25px;
+    
+    border: 2px solid #00008B; 
+    
+    
+    }
+    
+    .boton {
+    
+    color: #fff;
+    
+    text-decoration: none;
+    
+    transition: 0.5s;
+    
+    }
+    
+    
+    .boton:hover{
+    
+    background: #2F4F4F;
+    
+    border: 2px solid #2F4F4F;
+    
+    }
+    
+    .boton:active{
+    
+    background: radial-gradient(circle, #00008B, #2F4F4F);
+    
+    border: 2px solid #1E90FF
+    
+    
+    }
+    
+    .aside-container{
+    
+    display: flex;
+    
+    flex-direction: column;
+    
+    justify-content: center;
+    
+    text-align: center;
+    
+    }
+    
+    .aside-h2{
+    
+    padding: 30px;
+    
+    font-size: 20px;
+    
+    color: #fff;
+    
+    }
+    
+    .aside-h2 h2{
+    
+    font-family: 'Krona One', sans-serif;
+    
+    
+    }
+    
+    .aside-aplicacion{
+    
+    padding: 20px;
+    
+    }
+    
+    .aside-aplicacion h3{
+    
+    font-size: 25px;
+    
+    padding: 15px;
+    
+    color: #fff;
+    
+    font-family: 'Krona One', sans-serif;
+    
+    }
+    
+    .aside-aplicacion i{
+    
+    padding: 5px;
+    
+    font-size: 35px;
+    
+    color: #fff;
+    
+    }
+    
+    
+    .aside-commerce{
+    
+    padding: 20px;
+    
+    }
+    
+    
+    .aside-commerce h3{
+    
+    
+    padding: 15px;
+    
+    font-size: 25px;
+    
+    color: #fff;
+    
+    font-family: 'Krona One', sans-serif;
+    
+    }
+    
+    .aside-commerce i{
+    
+    padding: 5px;
+    
+    font-size: 35px;
+    
+    color: #fff;
+    
+    }
+    
+    .aside-articulos{
+    
+    padding: 20px
+    
+    }
+    
+    .aside-articulos h3{
+    
+    
+    padding: 15px;
+    
+    font-size: 25px;
+    
+    color: #fff;
+    
+    font-family: 'Krona One', sans-serif;
+    
+    }
+    
+    .aside-articulos i{
+    
+    padding: 5px;
+    
+    font-size: 35px;
+    
+    color: #fff;
+    
+    }
+    
+    .formulario-container{
+    
+    display: flex;
+    
+    flex-direction: column;
+    
+    justify-content: center;
+    
+    align-items: center;
+    
+    background: #222;
+    
+    
+    
+    }
+    
+    
+    
+    .formulario-container h2{
+    
+    margin: 30px;
+    
+    text-align: center;
+    
+    font-size: 30px;
+    
+    color: #fff;
+    
+    }
+    
+    
+    .input-container{
+    
+    margin: 20px;
+    
+    font-size: 15px;
+    
+    width: 50%;
+    
+    text-align: center;
+    
+    }
+    
+    .input-flex{
+    
+    border: none;
+    
+    border-bottom: 3px solid #800000;
+    
+    background: transparent;
+    
+    color: #fff;
+    
+    }
+    
+    .input-flex:focus{
+    
+    background: linear-gradient(to bottom, transparent, #111);
+    
+    outline: none;
+    
+    border-bottom: 3px solid #5f9
+    
+    }
+    
+    .input-container textarea{
+    
+    resize: none;
+    
+    }
+    
+    .input-container input[type="submit"]{
+    
+    margin-left: 60px;
+    
+    }
+    
+    .formulario input[type="submit"]{
+    
+    background: #000;
+    
+    border-bottom: none;
+    
+    padding: 15px;
+    
+    
+    }
+    
+    .formulario input[type="submit"]:hover{
+    
+    
+    background: #111;
+    
+    border-bottom: none;
+    
+    padding: 15px;
+    
+    }
+    
+    .formulario input[type="submit"]:focus{
+    
+    background-color: #000;
+    
+    }
+    
+    
+    .formulario input[type="submit"]:active{
+    
+    background: linear-gradient(to bottom, #111, #000);
+    
+    }
+    
+    
+    
+    .footer{
+    
+    margin: 20px;
+    
+    }
+    
+    .footer p{
+    
+    color: #fff;
+    
+    }
+    
+    
+    @media screen and (min-width: 1025px){
+    
+    .article{
+    
+    display: none;
+    
+    }
+    
+    .aside{
+    
+    display: none;
+    
+    }	
+    
+    .header-h1{
+    
+    font-size: 20px;
+    
+    }
+    
+    .content:before{
+    
+    content: "";
+    
+    position: absolute;
+    
+    background-color: #2F4F4F;
+    
+    width: 100%;
+    
+    height: 100px;
+    
+    opacity: 0.7;
+    
+    
+    }
+    
+    
+    .nav{
+    
+    display: flex;
+    
+    flex-direction: row;
+    
+    }
+    
+    .li__ul-nav{
+    
+    display: inline-block;
+    
+    padding: 25px;
+    
+    flex-grow: 1;
+    
+    }
+    
+    .li__ul-nav:hover{
+    
+    color: #bbb;
+    
+    background: #800000
+    
+    
+    }
+    
+    .li__ul-nav:hover a{
+    
+    color: #bbb;
+    
+    
+    }
+    
+    .container-responsive{
+    
+    display: flex;
+    
+    justify-content: flex-start;
+    
+    
+    }
+    
+    .article-responsive{
+    
+    width: 70%;
+    
+    height: 130vh;	
+    
+    background-image: url(Telefono.png);
+    
+    background-size: 100% 130vh;
+    
+    background-repeat: no-repeat;
+    
+    
+    
+    }
+    
+    .article-responsive:before{
+    
+    content: "";
+    
+    position: absolute;
+    
+    background-color: #2F4F4F;
+    
+    width: 70%;
+    
+    height: 130vh;
+    
+    opacity: 0.7;
+    
+    }
+    
+    
+    .article-container-responsive{
+    
+    flex-direction: column;
+    
+    justify-content: center;
+    
+    text-align: center;
+    
+    margin-top: 35vh;
+    
+    
+    
+    }
+    
+    .article-h2-responsive{
+    
+    padding: 20px;
+    
+    
+    
+    }
+    
+    .article-h2-responsive h2{
+    
+    font-size: 35px;
+    
+    font-family: 'Krona One', sans-serif;
+    
+    color: #fff;
+    
+    position: relative;
+    
+    }
+    
+    .article-p-responsive{
+    
+    padding: 20px;
+    
+    
+    }
+    
+    .article-p-responsive p{
+    
+    
+    font-size: 30px;
+    
+    font-family: 'Krona One', sans-serif;
+    
+    color: #fff;
+    
+    position: relative;
+    
+    }
+    
+    .article-p-responsive i{
+    
+    padding: 10px;
+    
+    }
+    
+    
+    .boton-responsive{
+    
+    flex-basis: 60px;	
+    
+    background: #00008B;
+    
+    padding: 20px;
+    
+    list-style-type: none;
+    
+    position: relative;
+    
+    text-align: center;
+    
+    font-size: 25px;
+    
+    border: 2px solid #00008B; 
+    
+    }
+    
+    
+    .boton-responsive {
+    
+    color: #fff;
+    
+    text-decoration: none;
+    
+    transition: 0.5s;
+    
+    }
+    
+    
+    .boton-responsive:hover{
+    
+    background: #2F4F4F;
+    
+    border: 2px solid #2F4F4F;
+    
+    }
+    
+    .boton-responsive:active{
+    
+    background: radial-gradient(circle, #00008B, #2F4F4F);
+    
+    border: 2px solid #1E90FF
+    
+    
+    }
+    
+    
+    
+    
+    .aside-responsive{
+    
+    justify-content: center;
+    
+    align-items: center;
+    
+    text-align: center;
+    
+    width: 30%;
+    
+    
+    
+    }
+    
+    
+    
+    
+    .aside-h2-responsive{
+    
+    padding: 30px;
+    
+    color: #fff;
+    
+    justify-content: center;
+    
+    
+    }
+    
+    .aside-h2-responsive h2{
+    
+    font-family: 'Krona One', sans-serif;
+    
+    font-size: 25px;
+    
+    }
+    
+    .aside-aplicacion-responsive{
+    
+    padding: 20px;
+    
+    text-align: center;
+    
+    
+    }
+    
+    .aside-aplicacion-responsive h3{
+    
+    font-size: 25px;
+    
+    padding: 40px;
+    
+    font-family: 'Krona One', sans-serif;
+    
+    color: #fff;
+    
+    }
+    
+    
+    .aside-aplicacion-responsive i{
+    
+    padding: 5px;
+    
+    font-size: 35px;
+    
+    color: #fff;
+    
+    }
+    
+    .aside-commerce-responsive{
+    
+    padding: 20px;
+    
+    
+    
+    }
+    
+    .aside-commerce-responsive h3{
+    
+    font-size: 25px;
+    
+    padding: 40px;
+    
+    font-family: 'Krona One', sans-serif;
+    
+    color: #fff;
+    
+    
+    }
+    
+    .aside-commerce-responsive i{
+    
+    padding: 5px;
+    
+    font-size: 35px;
+    
+    color: #fff;
+    
+    
+    
+    }
+    
+    .aside-articulos-responsive{
+    
+    padding: 20px;
+    
+    
+    }
+    
+    .aside-articulos-responsive h3{
+    
+    font-size: 25px;
+    
+    padding: 40px;
+    
+    font-family: 'Krona One', sans-serif;
+    
+    color: #fff;
+    
+    justify-content: center;
+    
+    align-items: center;
+    
+    
+    }
+    
+    .aside-articulos-responsive i{
+    
+    padding: 5px;
+    
+    font-size: 35px;
+    
+    color: #fff;
+    
+    }
+    
+     
+    
+    .formulario-container{
+    
+    display: flex;
+    
+    flex-direction: column;
+    
+    justify-content: center;
+    
+    align-items: center;
+    
+    background: #222;
+    
+    
+    
+    }
+    
+    .formulario-container h2{
+    
+    margin: 30px;
+    
+    text-align: center;
+    
+    font-size: 30px;
+    
+    color: #fff;
+    
+    }
+    
+    
+    .input-container{
+    
+    margin: 20px;
+    
+    font-size: 25px;
+    
+    width: 50%;
+    
+    }
+    
+    .input-flex{
+    
+    border: none;
+    
+    border-bottom: 3px solid #800000;
+    
+    background: transparent;
+    
+    color: #fff;
+    
+    }
+    
+    .input-flex:focus{
+    
+    background: linear-gradient(to bottom, transparent, #111);
+    
+    outline: none;
+    
+    border-bottom: 3px solid #5f9;
+    
+    }
+    
+    .input-container input[type="submit"]{
+    
+    margin-left: 110px;
+    
+    }
+
+}
